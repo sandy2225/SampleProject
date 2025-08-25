@@ -1,0 +1,115 @@
+"id"
+class
+CSS
+
+<tagname id=value></tagname>
+
+selector
+
+1) tagname
+2) using id
+3) using class attribute
+
+
+p{
+  color:blue;
+  background-color:tomato;
+
+}
+
+#id1{
+ color:blue;
+  background-color:tomato;
+}
+
+.sam{
+  color:blue;
+  background-color:tomato;
+  font-size:160%
+}
+
+
+<p id="id1" class="sam"></p>
+
+
+
+CSS: Cascading Stylesheets
+
+1) inline stylesheets:
+----------------------
+-->Specific
+attribute="value"
+
+<p style="color:red; font-family:tahoma; font-size:160%">
+</p>
+
+<form><fieldset></fieldset></form>
+
+2) Internal Stylesheets:
+
+<html>
+<head>
+<style>
+#id1{
+  color:blue;
+  background-color:tomato;
+
+}
+
+#id2{
+color:tomato;
+  background-color:gray;
+}
+</style>
+</head>
+<body>
+<h1> Page</h1>
+<p id="id2"> h5asvdhsa jdasgdsan 5asjgd sadg jyyasgd 
+sjdasg j5sags ad5asjgjadsvj hs dhasvdas kjadsb as
+nasvdjas 
+hadsvasnb jsvdajsj jsav
+dajs jadsvjas jsvad asj jdsvaj jasd jvdsa dsaj
+</p><br><br>
+
+<p id="id1"> h5asvdhsa jdasgdsan 5asjgd sadg jyyasgd 
+sjdasg j5sags ad5asjgjadsvj hs dhasvdas kjadsb as
+nasvdjas 
+hadsvasnb jsvdajsj jsav
+dajs jadsvjas jsvad asj jdsvaj jasd jvdsa dsaj
+jsvad asj jdsvaj jasd jvdsa dsaj
+jsvad asj jdsvaj jasd jvdsa dsaj
+</p>
+
+</body>
+3) External Stylesheets
+<html>
+<head>
+<link rel="stylesheets" href="./sample.css">
+</head>
+<body>
+<h1> Page</h1>
+<p id="id2"> h5asvdhsa jdasgdsan 5asjgd sadg jyyasgd 
+sjdasg j5sags ad5asjgjadsvj hs dhasvdas kjadsb as
+nasvdjas 
+hadsvasnb jsvdajsj jsav
+dajs jadsvjas jsvad asj jdsvaj jasd jvdsa dsaj
+</p><br><br>
+
+<p id="id1"> h5asvdhsa jdasgdsan 5asjgd sadg jyyasgd 
+sjdasg j5sags ad5asjgjadsvj hs dhasvdas kjadsb as
+nasvdjas 
+hadsvasnb jsvdajsj jsav
+dajs jadsvjas jsvad asj jdsvaj jasd jvdsa dsaj
+jsvad asj jdsvaj jasd jvdsa dsaj
+jsvad asj jdsvaj jasd jvdsa dsaj
+</p>
+
+li a.active {
+  background-color: green;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
